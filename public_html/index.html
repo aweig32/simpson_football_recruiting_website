@@ -6,53 +6,70 @@
 <head>
   <meta charset="utf-8">
   <title>Simpson Storm Football</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <style>
-  h1 {
-      text-align: center;
-      font-size: 30px;
-  }
-  h2{
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
-  }
-  </style>
-</head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/materia/bootstrap.min.css" integrity="sha384-B4morbeopVCSpzeC1c4nyV0d0cqvlSAfyXVfrPJa25im5p+yEN/YmhlgQP/OyMZD" crossorigin="anonymous">
 
+  </head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
   <header>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home Page</a>
-        </li>
+    
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Brand/site name -->
+      <a class="navbar-brand" href="#">Simpson Football</a>
+      <!-- Hamburger icon -->
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Div to hide stuff if we have hamburger -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Nav bar item list -->
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <!-- This is the style for the 'active' page -->
+            <a class="nav-link active" aria-current="page" href="index.html">Index</a>
+          </li>
 
-        <li>
-          <a href="about.html">About</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-        <li>
-          <a href="news.html">News</a>
-        </li>
-        <li>
-          <a href="schedule_and_hours.html">Schedule and Hours</a>
-        </li>
-        <li>
-          <a href="videos.html">Videos</a>
-        </li>
-        <li>
-          <a href="facilities.html">Facilities</a>
-        </li>
-      </ul>
-    </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="schedule_and_hours.html">Schedule and Hours</a>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">Videos</a>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="facilities.html">Facilities</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+  
+    </header>
 
+ <div class="container">
       <h1>Simpson Storm Football Recruiting</h1>
 
-    </header>
-       <h1 style="text-align:center;font-size: 28px;"> Welcome to the Home of Simpson Storm Football</h1>
+    
+
+        
+          
+
+  
+
+      <h1> Welcome to the Home of Simpson Storm Football</h1>
    
       <p>This website gives an overview of Simpson College football and what makes Simpson a great place to be a student athlete.</p>
 
@@ -62,13 +79,28 @@
       <a href="https://simpson.edu">here</a>.</p>
 
       <p>Roll Storm!</p>
-
+  
     <h2>What Makes Simpson Football Great?</h2>
-    <ol>
-  <li>Great Facilities</li>
-  <li>Committed Coaching Staff</li>
-  <li>Winning Culture</li>
-    </ol>
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">1.</th>
+          <td>Great Facilities</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">2.</th>
+          <td>Committed Coaching Staff</td>
+        </tr>
+        <tr>
+          <th scope="row">3.</th>
+          <td>Winning Culture</td>
+        </tr>
+      </tbody>
+    </table>
+
 
     <h2>What Makes Being a Student-Athlete Special at Simpson College?</h2>
     <ol>
@@ -91,11 +123,28 @@
       <li>See Campus</li>
       <li>You Can Even Stay Overnight with players and Experience All That Simpson Has to Offer!</li>
     </ol>
+     
+      <div class="card" style="width: 18rem;">
+  <img src="Slide21-2.jpg" alt="Simpson Football">
+        <div class="card-body"> 
+    <h5 class="card-title">Simpson College Football</h5>
+    <p class="card-text">Here is a picture of the Storm celebrating a big play in the game last weekend.</p>
+    <a href="#" class="btn btn-primary">Go Storm!</a>
+        </div>
+      </div>
 
+      <button type="button" class="btn btn-danger btn-lg">Help!</button>
+     
       <br/>
     <footer>
         Copyright  2021 by Seth Howard and Zach Wemhoff
     </footer>
+  </div>
   </body>
 
 </html>
+
+
+
+
+ 

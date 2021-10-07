@@ -5,38 +5,56 @@
 <head>
   <meta charset="utf-8">
   <title>Simpson Storm Football</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/materia/bootstrap.min.css" integrity="sha384-B4morbeopVCSpzeC1c4nyV0d0cqvlSAfyXVfrPJa25im5p+yEN/YmhlgQP/OyMZD" crossorigin="anonymous">
 </head>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
   <header>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home Page</a>
-        </li>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Brand/site name -->
+      <a class="navbar-brand" href="#">Simpson Football</a>
+      <!-- Hamburger icon -->
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Div to hide stuff if we have hamburger -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Nav bar item list -->
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <!-- This is the style for the 'active' page -->
+            <a class="nav-link" aria-current="page" href="index.html">Index</a>
+          </li>
 
-        <li>
-          <a href="about.html">About</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-        <li>
-          <a href="news.html">News</a>
-        </li>
-        <li>
-          <a href="schedule_and_hours.html">Schedule and Hours</a>
-        </li>
-        <li>
-          <a href="videos.html">Videos</a>
-        </li>
-        <li>
-          <a href="facilities.html">Information</a>
-        </li>
-      </ul>
-    </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="schedule_and_hours.html">Schedule and Hours</a>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">Videos</a>
+         
+          <li class="nav-item">
+            <a class="nav-link active" href="facilities.html">Facilities</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
   </header>
-
+<div class="container">
   <!-- Logo and title -->
       <h1>Simpson College Football Facilities</h1>
     <h2> Steven Johnson Fitness Center </h2>
@@ -65,6 +83,7 @@
     <footer>
         Copyright 2021 by Seth Howard and Zach Wemhoff
     </footer>
+    </div>
   </body>
 
 </html>
